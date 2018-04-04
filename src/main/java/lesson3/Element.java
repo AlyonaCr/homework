@@ -2,7 +2,6 @@ package lesson3;
 
 public class Element<T>{
 
-
     private Element next;
     private T value;
 

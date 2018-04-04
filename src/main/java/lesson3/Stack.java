@@ -97,7 +97,6 @@ public class Stack <T>{
             return result.toString();
     }
 
-
     public String toString () {
         String stackString = "";
         if (head == null) {
