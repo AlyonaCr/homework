@@ -4,6 +4,7 @@ public class CoffeeMachine {
 
     private String brand = "De Longhi";
     private double weight = 9.7;
+
     @RandomInt
     private int power;
     private String typeOfCoffeeMachine = "Automatic";

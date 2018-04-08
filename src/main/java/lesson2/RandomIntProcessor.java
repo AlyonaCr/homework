@@ -1,6 +1,5 @@
 package lesson2;
 
-
 import java.lang.reflect.Field;
 import java.util.Random;
 
