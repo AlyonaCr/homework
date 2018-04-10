@@ -1,5 +1,4 @@
 package lesson6.dao;
-
 import lesson6.Configuration;
 import lesson6.PropertiesJDBCConfiguration;
 import lesson6.domain.Department;

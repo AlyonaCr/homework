@@ -11,7 +11,6 @@ public class PropertiesJDBCConfiguration implements JDBCConfiguration {
     private static String USERNAME;
     private static String PASSWORD;
 
-
     @Override
     public Configuration load() {
 

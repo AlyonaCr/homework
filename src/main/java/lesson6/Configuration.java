@@ -2,7 +2,6 @@ package lesson6;
 
 public class Configuration {
 
-
     String database;
     String host;
     int port;

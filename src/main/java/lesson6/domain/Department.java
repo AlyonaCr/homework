@@ -39,12 +39,4 @@ public class Department {
         this.city = city;
     }
 
-    @Override
-    public String toString() {
-        return "Department{" +
-                "departmentId=" + departmentId +
-                ", name='" + name + '\'' +
-                ", city='" + city + '\'' +
-                '}';
-    }
 }
