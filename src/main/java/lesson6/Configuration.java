@@ -8,7 +8,6 @@ public class Configuration {
     String username;
     String password;
 
-
     public String getDatabase() {
         return database;
     }

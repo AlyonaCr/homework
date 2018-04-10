@@ -107,7 +107,6 @@ public class MySQLDepartmentDAO implements DepartmentDao {
         return department;
     }
 
-
     private static Connection getConfiguredConnection() throws SQLException {
         PropertiesJDBCConfiguration prop = new PropertiesJDBCConfiguration();
         Configuration conf = prop.load();
