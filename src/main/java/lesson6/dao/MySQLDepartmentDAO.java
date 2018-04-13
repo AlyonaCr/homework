@@ -18,7 +18,7 @@ public class MySQLDepartmentDAO implements DepartmentDao {
             Statement statement = connection.createStatement();
             int result = statement.executeUpdate(sql);
             System.out.println("Row affected: " + result);
-
+            connection.close();
 
         } catch (SQLException e) {
         e.printStackTrace();
@@ -36,6 +36,7 @@ public class MySQLDepartmentDAO implements DepartmentDao {
             Statement statement = connection.createStatement();
             int result = statement.executeUpdate(sql);
             System.out.println("Row affected: " + result);
+            connection.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -53,6 +54,8 @@ public class MySQLDepartmentDAO implements DepartmentDao {
             Statement statement = connection.createStatement();
             int result = statement.executeUpdate(sql);
             System.out.println("Row affected: " + result);
+            connection.close();
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -75,6 +78,7 @@ public class MySQLDepartmentDAO implements DepartmentDao {
                 Department department = new Department(departmentId, name , city);
                 departments.add(department);
             }
+            connection.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -99,6 +103,7 @@ public class MySQLDepartmentDAO implements DepartmentDao {
                 department.setCity(resultSet.getString("city"));
 
             }
+            connection.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
