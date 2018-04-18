@@ -2,11 +2,11 @@ package lesson6;
 
 public class Configuration {
 
-    String database;
-    String host;
-    int port;
-    String username;
-    String password;
+    private String database;
+    private String host;
+    private int port;
+    private String username;
+    private String password;
 
     public String getDatabase() {
         return database;
